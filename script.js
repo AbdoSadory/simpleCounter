@@ -20,6 +20,14 @@ function counter(countingType) {
     countNumberHeading.innerHTML = counterNumber.toString();
     console.log(counterNumber);
   }
+
+  if (counterNumber > 0) {
+    countNumberHeading.style.color = "green";
+  } else if (counterNumber < 0) {
+    countNumberHeading.style.color = "red";
+  } else {
+    countNumberHeading.style.color = "black";
+  }
 }
 
 // we create anonymous function, bc the function needs arguments

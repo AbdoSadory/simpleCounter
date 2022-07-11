@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: cadetblue;
+  background-color: #f1f5f8;
 }
 
 .content-container {
@@ -18,8 +18,7 @@ body {
 
 .content-container .count-header,
 .count-number {
-  color: white;
-  color: white;
+  color: black;
   font-size: 80px;
   text-transform: uppercase;
 }
